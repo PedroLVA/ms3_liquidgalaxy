@@ -1,0 +1,142 @@
+
+.main{
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    padding-top: 30px;
+    perspective: 500px;
+    
+}
+
+.rec1{
+    background-color: #1593c2;
+    width:55px;
+    height: 148px;
+    margin: auto -1px;
+    transform: rotateX(360deg) rotateY(45deg);
+    transform-style: preserve-3d;
+    animation-name: rec1move, rec1fade;
+    animation-duration: 8s;
+    position: relative;
+    z-index: 1;
+}
+.rec2{
+    background-color: #d8051b;
+    width:50px;
+    height: 138px;
+    margin: auto -1px;
+    transform: rotateX(360deg) rotateY(29deg);
+    transform-style: preserve-3d;
+    animation-name: rec2move, rec2fade;
+    animation-duration: 8s;
+    position: relative;
+    overflow: hidden;
+    
+}
+.rec3{
+    background-color: #e6c810;
+    width:50px;
+    height: 134px;
+    margin: auto 3px;
+    animation-name: rec3fade;
+    animation-duration: 8s;
+    position: relative;
+}
+.rec4{
+    background-color: #29cc41;
+    width:50px;
+    height: 138px;
+    margin: auto -1px;
+    transform: rotateX(360deg) rotateY(331deg);
+    transform-style: preserve-3d;
+    animation-name: rec4move, rec4fade;
+    animation-duration: 8s;
+    position: relative;
+    
+}
+.rec5{
+    background-color: #1593c2;
+    width:55px;
+    height: 148px;
+    margin: auto -1px;
+    transform: rotateX(360deg) rotateY(315deg);
+    transform-style: preserve-3d;
+    animation-name: rec5move, rec5fade;
+    animation-duration: 8s;
+    position: relative;
+}
+.texto{
+    animation-name: textofade;
+    animation-duration: 8s;
+    position: relative;
+}
+.Liquidtext{
+    text-align: center;
+    font-family: "Lucida console";
+    font-size: 30px;
+    color: #292929;
+}
+
+
+/* animação left:200px; top:0px;} */
+
+@keyframes rec5move {
+    0% {left: 30px;}
+    25% { left:0px;}
+  }
+  @keyframes rec4move {
+    0% {left: 0px;}
+    25% {left: 30px;}
+    50% { left:0px;}
+  }
+  @keyframes rec2move {
+    0% {right: 0px;}
+    25% {right: 30px;}
+    50% {right:0px;}
+  }
+  @keyframes rec1move {
+    0% {right: 30px;}
+    25% { right:0px;}
+  }
+
+  /*fades */
+
+@keyframes rec5fade {
+    0% {opacity: 0;}
+    25% {opacity: 100;}
+}
+@keyframes rec4fade {
+     0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 100;}
+}
+@keyframes rec3fade {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 100;}
+}
+@keyframes rec2fade {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 100;}
+}
+@keyframes rec1fade {
+    0% {opacity: 0;}
+    25% {opacity: 100;}
+}
+@keyframes textofade {
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 100;}
+}
+@keyframes eu {
+    0% {left: -400px;}
+    100%{left: 1920px;}
+
+}
+
+
+
