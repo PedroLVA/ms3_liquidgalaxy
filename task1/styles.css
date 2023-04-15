@@ -1,0 +1,48 @@
+header{
+    background-color: red;
+}
+body{
+    font-family: tahoma;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:red;
+    background-color: grey ;
+    margin:0%;
+    font-size: 2em;
+}
+.titulo-ordered{
+    color: blue;
+    margin-left: 2em;
+}
+div{
+    margin-left: 2em;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    background-color: grey;
+}
+p{
+    display: inline;
+    margin-left: 2em;
+    color: blue;
+    font-family: Arial;
+    font-size: 2em;
+    border: solid;
+    margin-left: 10px;
+    
+}
+.footer-text{
+    display: inline-block;
+    color:blue;
+    
+}
+
+
+
+
